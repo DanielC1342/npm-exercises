@@ -4,6 +4,7 @@
   "description": "my first package",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,8 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.15"
   }
 }
